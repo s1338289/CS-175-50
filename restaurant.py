@@ -12,25 +12,25 @@ print("Here are your restaurant choices.")
 if vegetarian =="no" and vegan == "no" and gluten_free == "no":
     print("Mamas Fine Italian","Corners Cafe","Main Street Pizza Company","The Chefs Kitchen","Joes Gourmet Burgers")
                                 
-if vegetarian == "yes":
+if vegetarian == "yes" and vegan== "no" and gluten_free=="no":
  print("Mamas Fine Italian","Corners Cafe","Main Street Pizza Company","The Chefs Kitchen")
 
-if vegetarian == "yes" and vegan == "yes":
+if vegetarian == "yes" and vegan == "yes" and gluten_free=="no":
        print ("Corners Cafe","Chefs Kitchen")
 
 if vegetarian == "yes" and vegan=="yes" and gluten_free=="yes":
        print ("Corners Cafe","Chefs Kitchen")
 
-if vegan == "yes":
+if vegan == "yes" and vegetarian == "no" and gluten_free=="no":
        print("Corners Cafe","Chefs Kitchen")
 
-if vegan == "yes" and gluten_free=="yes":
+if vegan == "yes" and gluten_free=="yes" and vegetarian =="no":
        print ("Corners Cafe","Chefs Kitchen")
 
-if gluten_free=="yes":
+if gluten_free=="yes" and vegetarian=="no" and vegan=="no":
        print("Main Street Pizza Company","Corners Cafe","Chefs Kitchen")
 
-if gluten_free == "yes" and vegetarian =="yes":
+if gluten_free == "yes" and vegetarian =="yes" and gluten_free=="no":
        print ("Main Street Pizza Company","Corners Cafe","Chefs Kitchen")
        
              
