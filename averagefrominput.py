@@ -3,6 +3,7 @@
 #AverageFromImput
 
 def main():
+    pass
     total=0
     count=0
     sales_file = open('numbers.txt', 'r')
